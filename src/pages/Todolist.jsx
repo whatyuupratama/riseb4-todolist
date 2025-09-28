@@ -113,21 +113,21 @@ const Todolist = () => {
    * @param {string} category - The category of the todo item.
    * @returns {string} - A string containing the background and text color.
    */
-  /*******  9f23f606-8f35-4920-a09b-95c050a6dd29  *******/ const getCategoryColor =
-    (category) => {
-      switch (category) {
-        case 'Low':
-          return 'bg-[#7990F8]/15 text-[#7990F8]';
-        case 'Medium':
-          return 'bg-[#46CF8B]/15 text-[#46CF8B]';
-        case 'High':
-          return 'bg-[#BC5EAD]/15 text-[#BC5EAD]';
-        case 'Done':
-          return 'bg-[#007BFF]/15 text-[#007BFF]';
-        default:
-          return 'bg-gray-200 text-gray-500';
-      }
-    };
+  /*******  9f23f606-8f35-4920-a09b-95c050a6dd29  *******/
+  const getCategoryColor = (category) => {
+    switch (category) {
+      case 'Low':
+        return 'bg-[#7990F8]/15 text-[#7990F8]';
+      case 'Medium':
+        return 'bg-[#46CF8B]/15 text-[#46CF8B]';
+      case 'High':
+        return 'bg-[#BC5EAD]/15 text-[#BC5EAD]';
+      case 'Done':
+        return 'bg-[#007BFF]/15 text-[#007BFF]';
+      default:
+        return 'bg-gray-200 text-gray-500';
+    }
+  };
   return (
     <div className='min-h-screen flex items-center justify-center p-4'>
       <div className='w-2/3 h-5/6 border  border-gray-300 rounded-2xl p-6 flex flex-col'>
