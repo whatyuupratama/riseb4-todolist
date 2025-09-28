@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import CreateTodoList from './pages/CreateTodoList';
-import Todolist from './pages/Todolist';
+import { Todolist } from './pages/TodoList';
 
 function App() {
   return (

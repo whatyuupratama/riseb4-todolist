@@ -133,7 +133,7 @@ const Todolist = () => {
       <div className='w-2/3 h-5/6 border border-gray-300 rounded-2xl p-6'>
         <div className='flex justify-between items-center mb-6'>
           <span className='text-6xl'>
-            <b>Today</b> 26 Dec
+            <b>Today</b> 28 Dec
           </span>
           <img
             src='https://i.pinimg.com/736x/c8/2c/e8/c82ce8f42c755343d6f854607c0228c3.jpg'
