@@ -95,7 +95,7 @@ const Content = [
   },
 ];
 
-const Todolist = () => {
+const TodoList = () => {
   const [todos, setTodos] = useState(Content);
 
   const handleToggleComplete = (id) => {
@@ -106,14 +106,6 @@ const Todolist = () => {
     );
   };
 
-  /*************  ✨ Windsurf Command ⭐  *************/
-  /**
-   * Get the background and text color based on the category.
-   *
-   * @param {string} category - The category of the todo item.
-   * @returns {string} - A string containing the background and text color.
-   */
-  /*******  9f23f606-8f35-4920-a09b-95c050a6dd29  *******/
   const getCategoryColor = (category) => {
     switch (category) {
       case 'Low':
@@ -202,4 +194,4 @@ const Todolist = () => {
   );
 };
 
-export default Todolist;
+export default TodoList;
