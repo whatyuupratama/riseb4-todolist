@@ -130,7 +130,7 @@ const Todolist = () => {
     };
   return (
     <div className='min-h-screen flex items-center justify-center p-4'>
-      <div className='w-2/3 h-5/6 border border-gray-300 rounded-2xl p-6'>
+      <div className='w-2/3 h-5/6 border  border-gray-300 rounded-2xl p-6 flex flex-col'>
         <div className='flex justify-between items-center mb-6'>
           <span className='text-6xl'>
             <b>Today</b> 28 Dec
@@ -167,7 +167,7 @@ const Todolist = () => {
             {todos.map((item, index) => (
               <div
                 key={index}
-                className='flex items-start gap-4 p-4 bg-gray-50 rounded-lg min-w-[300px ] w-[calc(50%-8px)'
+                className='flex items-start gap-4 p-4 bg-gray-50 rounded-lg min-w-[300px ] w-[calc(50%-8px)]'
               >
                 <input
                   type='checkbox'
