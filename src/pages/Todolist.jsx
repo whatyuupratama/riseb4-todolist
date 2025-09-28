@@ -159,7 +159,7 @@ const TodoList = () => {
             {todos.map((item, index) => (
               <div
                 key={index}
-                className='flex items-start gap-4 p-4 bg-gray-50 rounded-lg min-w-[300px ] w-[calc(50%-8px)]'
+                className='flex items-start gap-4 p-4 bg-gray-50 rounded-lg min-w-[300px] w-[calc(50%-8px)]'
               >
                 <input
                   type='checkbox'
